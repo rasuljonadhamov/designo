@@ -358,6 +358,10 @@ body {
   height: 100%;
 }
 
+main {
+  flex-grow: 1;
+}
+
 .container {
   width: 100%;
   max-width: 1211px;
@@ -503,6 +507,16 @@ h3 {
     display: block;
   }
 }
+.footer {
+  background-color: #1d1c1e;
+}
+
+.footer__container {
+  display: flex;
+  align-items: center;
+  padding-top: 14.4rem;
+}
+
 main {
   flex-grow: 1;
 }/*# sourceMappingURL=style.css.map */
