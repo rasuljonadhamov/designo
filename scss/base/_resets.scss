@@ -7,8 +7,8 @@
 }
 
 *:focus {
-  // outline: ;
-  // outline-offset: ;
+  outline: 2px dotted $primary-peach-color;
+  outline-offset: 3px;
 }
 
 html {
