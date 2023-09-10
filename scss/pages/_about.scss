@@ -131,6 +131,17 @@
   .img__wrapper {
     padding-left: 0;
     margin-left: 0rem;
+    width: 100%;
+    max-width: 765px;
+  }
+
+  .talant__img {
+    width: 100%;
   }
 }
 // ENDDDDD
+
+.see__loc {
+  background-color: #e7816b;
+  color: #fdf3f0;
+}

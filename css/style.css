@@ -1007,8 +1007,18 @@ main {
   .img__wrapper {
     padding-left: 0;
     margin-left: 0rem;
+    width: 100%;
+    max-width: 765px;
+  }
+  .talant__img {
+    width: 100%;
   }
 }
+.see__loc {
+  background-color: #e7816b;
+  color: #fdf3f0;
+}
+
 .webdes__container {
   background-color: #e7816b;
   padding-top: 6.4rem;
