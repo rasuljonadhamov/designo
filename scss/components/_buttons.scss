@@ -15,10 +15,11 @@
 }
 
 .btn-light {
-  background-color: $primary-peach-color;
-  color: $primary-white-color;
+  background-color: $primary-white-color;
+  color: $secondary-dark-gray-color;
 
   &:hover {
+    color: $primary-white-color;
     background-color: $secondary-peach-color;
   }
 }

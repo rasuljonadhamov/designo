@@ -242,7 +242,7 @@
   }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 480px) {
   .cta__list {
     align-items: center;
   }
@@ -253,8 +253,77 @@
   }
 
   .cta__img {
-    margin-top: 8rem;
+    // margin-top: 8rem;
     margin-left: 0;
   }
 }
 // CTA SECTION END
+
+// TOUCH SECTION START
+
+.touch {
+  z-index: 56;
+}
+
+.container {
+}
+
+.touch__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 5rem;
+  background-color: $primary-peach-color;
+  padding: 7.2rem 9.6rem 4.6rem 9.5rem;
+  border-radius: 15px;
+  margin-bottom: 6rem;
+}
+
+.touch__wrapper {
+  width: 100%;
+  max-width: 459px;
+}
+
+.touch__title {
+  color: $primary-white-color;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1;
+  margin-bottom: 3rem;
+}
+
+.touch__desc {
+  color: $primary-white-color;
+}
+
+.touch-btn {
+  color: $secondary-dark-gray-color;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 768px) {
+  .touch__container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3.2rem;
+  }
+
+  .touch__wrapper {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .touch__title {
+    width: 100%;
+    max-width: 375px;
+    font-size: 3.2rem;
+  }
+}
+// TOUCH SECTION END

@@ -450,10 +450,11 @@ h3 {
 }
 
 .btn-light {
-  background-color: #e7816b;
-  color: #ffffff;
+  background-color: #ffffff;
+  color: #333136;
 }
 .btn-light:hover {
+  color: #ffffff;
   background-color: #ffad9b;
 }
 
@@ -724,7 +725,7 @@ h3 {
     max-width: 439px;
   }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 480px) {
   .cta__list {
     align-items: center;
   }
@@ -733,8 +734,67 @@ h3 {
     text-align: center;
   }
   .cta__img {
-    margin-top: 8rem;
     margin-left: 0;
+  }
+}
+.touch {
+  z-index: 56;
+}
+
+.touch__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 5rem;
+  background-color: #e7816b;
+  padding: 7.2rem 9.6rem 4.6rem 9.5rem;
+  border-radius: 15px;
+  margin-bottom: 6rem;
+}
+
+.touch__wrapper {
+  width: 100%;
+  max-width: 459px;
+}
+
+.touch__title {
+  color: #ffffff;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1;
+  margin-bottom: 3rem;
+}
+
+.touch__desc {
+  color: #ffffff;
+}
+
+.touch-btn {
+  color: #333136;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 768px) {
+  .touch__container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3.2rem;
+  }
+  .touch__wrapper {
+    text-align: center;
+  }
+}
+@media screen and (max-width: 375px) {
+  .touch__title {
+    width: 100%;
+    max-width: 375px;
+    font-size: 3.2rem;
   }
 }
 .footer {
