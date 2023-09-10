@@ -371,6 +371,11 @@ main {
   padding-right: 50px;
 }
 
+#active {
+  color: black;
+  transform: scale(1.01);
+}
+
 /* jost-regular - latin */
 @font-face {
   font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
@@ -888,6 +893,122 @@ main {
   flex-grow: 1;
 }
 
+.about__container {
+  background-color: #e7816b;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8.7rem;
+  padding-right: 0;
+  border-radius: 15px;
+  background-image: url("../../images/about-oval.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.about__wrapper {
+  padding-left: 9.5rem;
+}
+
+.about__title {
+  margin-top: 3.5rem;
+  margin-bottom: 3.2rem;
+}
+
+.about-bg {
+  border-radius: 15px;
+}
+
+@media screen and (max-width: 768px) {
+  .about__container {
+    flex-direction: column-reverse;
+    gap: 5rem;
+    width: 100%;
+    max-width: 689px;
+    height: 632px;
+  }
+  .about-bg {
+    width: 100%;
+    max-width: 689px;
+    height: 312px;
+    margin-top: 4rem;
+    margin-left: -4rem;
+  }
+  .about__wrapper {
+    padding-left: 3rem;
+    width: 100%;
+    max-width: 573px;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 455px) {
+  .about__container {
+    flex-direction: column-reverse;
+    gap: 5rem;
+    width: 100%;
+    max-width: 689px;
+    height: 632px;
+  }
+  .about-bg {
+    width: 100%;
+    max-width: 375px;
+    height: 312px;
+    margin-top: -84rem;
+    margin-left: -4rem;
+  }
+  .about__wrapper {
+    padding-left: 0;
+    width: 100%;
+    max-width: 327px;
+    text-align: center;
+  }
+}
+.talant {
+  margin-bottom: 16rem;
+}
+
+.talant__container {
+  display: flex;
+  align-items: center;
+  gap: 10.4rem;
+  background-color: #fdf3f0;
+  border-radius: 15px;
+}
+
+.img__wrapper {
+  padding-left: 0;
+  margin-left: -5rem;
+}
+
+.talant__img {
+  border-radius: 15px;
+}
+
+.talant__wrapper {
+  width: 100%;
+  max-width: 445px;
+}
+
+.talant__title {
+  color: #e7816b;
+  font-style: normal;
+  font-weight: 500;
+  margin-bottom: 2.4rem;
+}
+
+@media screen and (max-width: 768px) {
+  .talant__container {
+    flex-direction: column;
+  }
+  .talant__wrapper {
+    padding-bottom: 4.4rem;
+    text-align: center;
+  }
+  .img__wrapper {
+    padding-left: 0;
+    margin-left: 0rem;
+  }
+}
 .webdes__container {
   background-color: #e7816b;
   padding-top: 6.4rem;
@@ -1065,5 +1186,57 @@ main {
     width: 100%;
     max-width: 327px;
     height: 250px;
+  }
+}
+.graph__list {
+  display: flex;
+  align-items: center;
+  gap: 3.1rem;
+}
+
+.portfolio__title {
+  transition: all 0.3s ease-in;
+}
+
+.portfolio__item-wrapper {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 286px;
+}
+
+.graph__item {
+  width: 100%;
+  max-width: 350px;
+  height: 478px;
+  background-color: #fdf3f0;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: all 0.3s ease-in;
+}
+.graph__item:hover {
+  background-color: #e7816b;
+  color: white;
+}
+.graph__item:hover .portfolio__title {
+  color: #ffffff;
+}
+
+@media screen and (max-width: 768px) {
+  .graph__list {
+    flex-direction: column;
+  }
+  .graph__item {
+    display: flex;
+    width: 100%;
+    max-width: 689px;
+    height: 310px;
+  }
+}
+@media screen and (max-width: 560px) {
+  .graph__item {
+    flex-direction: column;
+    width: 100%;
+    max-width: 327px;
+    height: 520px;
   }
 }/*# sourceMappingURL=style.css.map */
