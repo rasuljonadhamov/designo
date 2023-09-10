@@ -1,0 +1,88 @@
+.webdes__container {
+  background-color: $primary-peach-color;
+  padding-top: 6.4rem;
+  padding-bottom: 6.4rem;
+  text-align: center;
+  border-radius: 15px;
+}
+
+.webdes__wrapper {
+}
+
+.webdes__title {
+  color: $primary-white-color;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1;
+  margin-bottom: 2.4rem;
+}
+
+.webdes__text {
+  color: $primary-white-color;
+  text-align: center;
+  font-size: 1.6rem;
+  font-style: normal;
+}
+
+@media screen and (max-width: 768px) {
+  .webdes__container {
+    width: 100%;
+    max-width: 689px;
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .webdes__container {
+    border-radius: 0;
+  }
+
+  .webdes__title {
+    padding-top: 10.4rem;
+    text-align: center;
+    font-size: 3.2rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.12;
+    margin-bottom: 2.5rem;
+  }
+
+  .webdes__text {
+    font-size: 1.5rem;
+    width: 327px;
+    margin-bottom: 5rem;
+  }
+}
+
+// PROJECT SECTION STRAT
+
+.port {
+  margin-bottom: 16rem;
+}
+
+.portfolio__list {
+  display: grid;
+  grid-template-columns: repeat(3, 350px);
+  grid-template-rows: repeat(2, 478px);
+  row-gap: 3.2rem;
+  column-gap: 3rem;
+}
+
+.portfolio__item {
+  border-radius: 15px;
+  background-color: #fdf3f0;
+}
+
+.portfolio-img {
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+}
+
+.portfolio__title {
+}
+
+.portfolio__desc {
+}
+
+// PROJECT SECTION END
