@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Designo [] About</title>
+    <title>Designo [] CONTACT</title>
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
@@ -25,7 +25,9 @@
               <a href="./location.html" class="sitenav__link">LOCATIONS</a>
             </li>
             <li class="nav__item">
-              <a href="./contact.html" class="sitenav__link">CONTACT</a>
+              <a id="active" href="./contact.html" class="sitenav__link"
+                >CONTACT</a
+              >
             </li>
           </ul>
         </nav>
@@ -39,50 +41,42 @@
     <main class="main">
       <!-- HERO SECTION START -->
       <section class="hero">
-        <div class="container about__container">
-          <div class="about__wrapper">
-            <h1 class="hero__title about__title">About Us</h1>
-            <p class="hero__text">
-              Founded in 2010, we are a creative agency that produces lasting
-              results for our clients. We’ve partnered with many startups,
-              corporations, and nonprofits alike to craft designs that make real
-              impact. We’re always looking forward to creating brands, products,
-              and digital experiences that connect with our clients’ audiences.
+        <div class="container contact__container">
+          <div class="left__wrapper">
+            <h1 class="contact__title">Contact Us</h1>
+            <p class="contact__desc">
+              Ready to take it to the next level? Let’s talk about your project
+              or idea and find out how we can help your business grow. If you
+              are looking for unique digital experiences that’s relatable to
+              your users, drop us a line.
             </p>
           </div>
 
-          <img src="./images/about-bg.png" alt="" class="about-bg" />
+          <div class="login-box">
+            <form>
+              <div class="user-box">
+                <input type="text" required />
+                <label>Name</label>
+              </div>
+              <div class="user-box">
+                <input type="password" required />
+                <label>Email Address</label>
+              </div>
+              <div class="user-box">
+                <input type="number" required />
+                <label>Phone</label>
+              </div>
+
+              <div class="user-box">
+                <input type="text" required />
+                <label>Your Massage</label>
+              </div>
+              <a href="#" class="btn btn-light form-btn">SUBMIT</a>
+            </form>
+          </div>
         </div>
       </section>
       <!-- HERO SECTION END -->
-
-      <!-- PROJECT SECTION START -->
-      <section class="talant">
-        <div class="container talant__container">
-          <div class="img__wrapper">
-            <img src="./images/talant-bg.png" alt="" class="talant__img" />
-          </div>
-
-          <div class="talant__wrapper">
-            <h2 class="talant__title">World-class talent</h2>
-
-            <p class="talant__desc">
-              We are a crew of strategists, problem-solvers, and technologists.
-              Every design is thoughtfully crafted from concept to launch,
-              ensuring success in its given market. We are constantly updating
-              our skills in a myriad of platforms. <br />
-              <br />
-
-              Our team is multi-disciplinary and we are not merely interested in
-              form — content and meaning are just as important. We give great
-              importance to craftsmanship, service, and prompt delivery. Clients
-              have always been impressed with our high-quality outcomes that
-              encapsulates their brand’s story and mission.
-            </p>
-          </div>
-        </div>
-      </section>
-      <!-- PROJECT SECTION END -->
 
       <!-- CTA SECTION START -->
 
@@ -119,28 +113,6 @@
       </section>
 
       <!-- CTA SECTION END -->
-
-      <!-- TOUCH SECTION START -->
-
-      <section class="touch">
-        <div class="container touch__container">
-          <div class="touch__wrapper">
-            <h2 class="touch__title">
-              Let’s talk about <br />
-              your project
-            </h2>
-
-            <p class="touch__desc">
-              Ready to take it to the next level? Contact us today and find out
-              how our expertise can help your business grow.
-            </p>
-          </div>
-
-          <a href="#" class="btn btn-light touch-btn">Get in touch</a>
-        </div>
-      </section>
-
-      <!-- TOUCH SECTION END -->
     </main>
     <!-- MAIN END-->
 
