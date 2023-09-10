@@ -33,8 +33,21 @@
   background: #fff;
 }
 
+.footer__logo {
+  transition: all 0.3s ease-in-out;
+
+  &:hover {
+    opacity: 0.5;
+  }
+}
+
 .footer__link {
   color: $primary-white-color;
+  transition: all 0.3s ease-in-out;
+
+  &:hover {
+    color: $primary-peach-color;
+  }
 }
 
 .footer__bottom {

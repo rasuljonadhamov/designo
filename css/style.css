@@ -638,6 +638,10 @@ h3 {
   font-size: 1.4rem;
   line-height: 1;
   letter-spacing: 2px;
+  transition: all 0.3s ease-in-out;
+}
+.sitenav__link:hover {
+  opacity: 0.4;
 }
 
 .hamburger {
@@ -967,8 +971,19 @@ h3 {
   background: #fff;
 }
 
+.footer__logo {
+  transition: all 0.3s ease-in-out;
+}
+.footer__logo:hover {
+  opacity: 0.5;
+}
+
 .footer__link {
   color: #ffffff;
+  transition: all 0.3s ease-in-out;
+}
+.footer__link:hover {
+  color: #e7816b;
 }
 
 .footer__bottom {
