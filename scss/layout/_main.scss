@@ -72,3 +72,102 @@
 }
 
 // HERO SECTION END
+
+// PROJECT SECTION START
+
+.project {
+  margin-bottom: 16rem;
+}
+
+.project__container {
+  display: grid;
+  grid-template-columns: repeat(2, 541px);
+  grid-template-rows: repeat(2, 308px);
+  gap: 2.4rem;
+  text-align: center;
+}
+
+.web__design {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 15px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.web__design:first-child {
+  grid-row: 1/3;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.49), rgba(0, 0, 0, 0.49)),
+    url("../../images/web-desgn.png");
+}
+
+.web__design:nth-child(2) {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.49), rgba(0, 0, 0, 0.49)),
+    url("../../images/app-design.png");
+}
+
+.web__design:nth-child(3) {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.49), rgba(0, 0, 0, 0.49)),
+    url("../../images/graph-design.png");
+}
+
+.web__design-title {
+  color: $primary-white-color;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 2px;
+  margin-bottom: 2.4rem;
+}
+
+.web__design-link {
+  color: $primary-white-color;
+  display: inline-block;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all 0.3s ease-in;
+
+  &:hover {
+    opacity: 0.5;
+  }
+}
+
+.arrow {
+  display: inline-block;
+}
+
+@media screen and (max-width: 768px) {
+  .project__container {
+    display: grid;
+    grid-template-columns: repeat(1, 689px);
+    grid-template-rows: repeat(3, 200px);
+  }
+
+  .web-desgn {
+    width: 100%;
+    max-width: 689px;
+    height: 200px;
+  }
+
+  .web__design:first-child {
+    grid-row: 1/2;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .project__container {
+    display: grid;
+    grid-template-columns: repeat(1, 327px);
+    grid-template-rows: repeat(3, 250px);
+  }
+}
+
+// PROJECT SECTION END
