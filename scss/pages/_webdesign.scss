@@ -167,3 +167,35 @@
 }
 
 // PROJECT SECTION END
+
+.webdesign__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.webdesign__part {
+  width: 100%;
+  max-width: 541px;
+  height: 308px;
+}
+
+@media screen and (max-width: 768px) {
+  .webdesign__container {
+    flex-direction: column;
+  }
+
+  .webdesign__part {
+    width: 100%;
+    max-width: 689px;
+    height: 200px;
+  }
+}
+
+@media screen and (max-width: 376px) {
+  .webdesign__part {
+    width: 100%;
+    max-width: 327px;
+    height: 250px;
+  }
+}
