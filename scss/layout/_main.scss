@@ -220,7 +220,7 @@
   display: inline-block;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1000px) {
   .project__container {
     display: grid;
     grid-template-columns: repeat(1, 689px);
