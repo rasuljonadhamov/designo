@@ -111,7 +111,7 @@
   text-align: center;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 800px) {
   .portfolio__list {
     display: grid;
     grid-template-columns: repeat(1, 689px);
@@ -137,7 +137,7 @@
   }
 }
 
-@media screen and (max-width: 376px) {
+@media screen and (max-width: 550px) {
   .portfolio__list {
     display: grid;
     grid-template-columns: repeat(1, 327px);
