@@ -33,7 +33,7 @@
   }
 }
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 500px) {
   .webdes__container {
     border-radius: 0;
   }
@@ -111,7 +111,7 @@
   text-align: center;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 950px) {
   .portfolio__list {
     display: grid;
     grid-template-columns: repeat(1, 689px);
@@ -143,6 +143,7 @@
     grid-template-columns: repeat(1, 327px);
     grid-template-rows: repeat(6, 478px);
     row-gap: 4rem;
+    justify-items: self-start;
   }
 
   .portfolio__item {
