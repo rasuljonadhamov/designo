@@ -104,6 +104,7 @@
 
   .round__oval {
     top: 5rem;
+    overflow: hidden;
   }
 }
 
@@ -134,6 +135,8 @@
     top: 5rem;
     left: -5rem;
     top: 8rem;
+    overflow: hidden;
+    display: none;
   }
 
   .hero__title {
@@ -349,7 +352,9 @@
   background-color: $primary-peach-color;
   padding: 7.2rem 9.6rem 4.6rem 9.5rem;
   border-radius: 15px;
-  margin-bottom: 6rem;
+  margin-bottom: -8rem;
+  position: relative;
+  z-index: 3;
 }
 
 .touch__wrapper {
@@ -392,11 +397,27 @@
   }
 }
 
-@media screen and (max-width: 375px) {
-  .touch__title {
+@media screen and (max-width: 445px) {
+  .touch__container {
     width: 100%;
-    max-width: 375px;
+    height: 379px;
+    padding-bottom: 6rem;
+  }
+
+  .touch__title {
+    width: 279px;
+    margin-left: -5rem;
     font-size: 3.2rem;
+  }
+
+  .touch__desc {
+    font-size: 1.5rem;
+    width: 279px;
+    margin-left: -5rem;
+  }
+
+  .touch-btn {
+    padding: 1.7rem 1.8rem;
   }
 }
 // TOUCH SECTION END
